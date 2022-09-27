@@ -1,6 +1,7 @@
 name: Trivy CVE Dependency Scanner
 
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       repo:
